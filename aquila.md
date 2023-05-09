@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Aquila
 layout: home
 ---
 
