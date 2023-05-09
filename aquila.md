@@ -21,7 +21,7 @@ This is an entry level machine. Quick description
 Although basic, can get most jobs done! However, it will be a little slower.
 
 ### Basics
-The motion system works in the same XYZ plane, with the E axis for extrusion. In a similar manner to the trident, the X and Y are moved by toothed belts, and the Z is moved by a leadscrew.
+The motion system works in the same XYZ plane, with the E axis for extrusion. It's referred to in the general guide as an i3/Mendel style. In a similar manner to the trident, the X and Y are moved by toothed belts, and the Z is moved by a leadscrew.
 The filament is pushed by a gear. The X carriage is the hotend assembly on the horizontal rail. The Y carriage is the heated bed that moves back and forth. The Z axis is the X gantry moving up and down.
 
 ### Motion
@@ -38,7 +38,8 @@ machine.] This does not need to be done often.
 ### Extrusion System
 The trident uses a direct drive setup, while the aquila uses a bowden. Both have a long PTFE tube for filament guidance. The difference is that the trident pulls the filament through, since the E motor is on the
 moving toolhead, but the aquila *pushes* the filament through the tube, since the E motor is decoupled from the toolhead. It is instead on the Z gantry. While both systems work, the bowden setup does not provide
-as much control over the filament. This results in longer retractions, and usually only results in some surface imperfections. However, nothing major.
+as much control over the filament. This results in longer retractions, and usually only results in some surface imperfections. However, nothing major. The aquila also has an endstop for the E axis, which functions
+as a filament runout sensor. It comes before the motor, and if the filament runs out, it will automatically pause the print.
 
 ### Hotend
 The hotend functions the same. There is the heatsink, the heatbreak, heat block, heater cartridge, thermistor, and nozzle. **This machine does not have an all-metal heatbreak. The PTFE tube feeds all the way down through the heatbreak into
