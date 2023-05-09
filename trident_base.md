@@ -25,4 +25,4 @@ Since these are somewhat popular machines to build now, you can find support on 
 
 [The Voron Trident]: https://vorondesign.com/voron_trident
 [the manual]: https://github.com/VoronDesign/Voron-Trident/blob/main/Manual/Assembly_Manual_Trident.pdf
-[So what are we actually looking at?]: https://intervade.github.io/trident-walkthrough/trident_motion.html
+[So what are we actually looking at?]: https://intervade.github.io/trident-walkthrough/trident_frame.html
