@@ -17,4 +17,4 @@ insert a picture here of the naked frame
 
 [The manual]: https://github.com/VoronDesign/Voron-Trident/blob/main/Manual/Assembly_Manual_Trident.pdf
 [In our case, it's a way of holding together aluminum extrusions so that no outside brackets are needed.]: https://www.youtube.com/watch?v=2dvbn0rWA60
-[Okay, the frame's done. Motion?]: https://intervade.github.io/trident-walkthrough/trident-motion.html
+[Okay, the frame's done. Motion?]: https://intervade.github.io/trident-walkthrough/trident_motion.html
