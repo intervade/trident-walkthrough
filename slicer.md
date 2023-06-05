@@ -17,6 +17,9 @@ This includes setting up profiles for both the Aquila and the Trident, since it 
 
 ## Slicer time
 Now, with the file, we start in the slicer. Rather than start from zero, [read this page from the developers' website] to get a general overview of what's going on. However, ignore the brim section, we seldom need those. If you find yourself wanting to fine tune how the printer functions in the future, that website has excellent documentation on all of the settings can that be tweaked, but in general you won't have to. Since Dr. Chen has two printers, it's important to select the profile corresponding to the machine you're going to use. Additionally, check the filament profile matches the filament type you are using.
+![prusaslicer_quicksettings](https://github.com/intervade/trident-walkthrough/assets/93929298/06a69dad-b21b-44e1-b17e-9979647063ca)
+
+Under Print Settings, the number before the name of the profile specifies the layer height of the print. 0.2mm is a good balance of speed and quality, being the most common option. For extra resolution, make the layer height smaller, but to have the print go faster, try a greater layer height.
 
 ## Utilizing the file
 After you are able to import the STL file and click slice, a gcode file will be generated. **Regardless of the machine, make sure the nozzle is clean before starting the print job.** Sometimes the filament has a hard time getting started when there's excess hanging around.
