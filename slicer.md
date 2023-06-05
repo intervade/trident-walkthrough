@@ -10,7 +10,8 @@ Often, we have to get the file from Solidworks to a slicer, in our case PrusaSli
 (insert picture)
 
 ## I don't want to make the file
-Understandable, modeling everything can get tedious. You can try to find something that'll fit your needs from websites like [thingiverse] or [printables], among other websites you can search for on google.
+Understandable, modeling everything can get tedious. You can try to find something that'll fit your needs from websites like [thingiverse] or [printables], among other websites you can search for on google. Check the license to know if you can use it for research or only for personal use.
+
 ## First time slicer setup
 This includes setting up profiles for both the Aquila and the Trident, since it can be done together. [If the computer you're going to use to slicer the file has not set it up yet, click here].
 
