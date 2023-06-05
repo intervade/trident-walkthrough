@@ -30,6 +30,7 @@ you must save the file to a micro SD card that will be put into the front of the
 ### For the Trident,
 you must save the file to your computer. Afterward, nagivate to your computer's WiFi settings, changing to "klipper". In a browser, enter 10.42.0.1 as a URL, which will take you to the web interface for the Trident. For the Trident it is important to let the machine reach printing temperatures by entering the same values from the PrusaSlicer "Filament Settings" tab and heat soak for at least 10 minutes before running the gcode. Since the bed is a thick, 6mm sheet of aluminum, it takes time for the whole plate to reach temp, during which thermal expansion is occuring. Although the expansion is small, with layers 0.2mm thin, it is pertinent.
 ![temp_setting](https://github.com/intervade/trident-walkthrough/assets/93929298/4c3bfbea-9653-4508-80a7-9cf7c07be171)
+These temps are examples of setting the printer for PLA, although your temps may not match exactly.
 
 Scrolling down, there is a section titled "Jobs". Click the "+" symbol, subsequently uploading the gcode you saved.
 ![file_uploading](https://github.com/intervade/trident-walkthrough/assets/93929298/2e9cf87e-b678-4bd1-9a82-09f5d2e124b6)
