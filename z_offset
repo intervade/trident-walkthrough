@@ -1,0 +1,10 @@
+---
+title: Z Offset Calibration
+layout: home
+---
+
+# What is Z Offset Calibration?
+When the Trident begins a print, it does a couple of things. Among these is auto calibrate the z distance from the probe to the nozzle. When the printer uses the probe, it must know how far the nozzle is in relative distance. Since this process is automated in the start up sequence, it rarely needs to be touched, but occasionally a manual tuning is needed as the auto calibration can only account for so much distance before it errors out.
+
+# How To
+First, for our measurements to not be impacted by residual filament on the nozzle, heat it to printing temperature. Afterward, home the machine and have it attach the probe with the ATTACH_PROBE macro. Move the toolhead near the middle of the build surface with the movement controls
